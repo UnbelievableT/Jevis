@@ -1,0 +1,16 @@
+{
+  "name": "Jevis 控制台",
+  "short_name": "Jevis",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f5ef",
+  "theme_color": "#234d3c",
+  "icons": [
+    {
+      "src": "/brand/logo.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

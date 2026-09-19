@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "main-capability",
+  "description": "Window primitives only; no shell or filesystem tools exposed to the renderer.",
+  "windows": ["main"],
+  "permissions": ["core:default"]
+}

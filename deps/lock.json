@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-09-19T12:33:38.669Z",
+  "repositories": [
+    {
+      "name": "pi",
+      "url": "https://github.com/earendil-works/pi.git",
+      "licenseHint": "MIT",
+      "role": "inference",
+      "note": "Unified inference and tool loop; own permissions and durable state.",
+      "sha": "36b60d2e8985899743c4cf5bd5f8929832a3f05d",
+      "branch": "main",
+      "licenseFiles": ["LICENSE"]
+    },
+    {
+      "name": "codex",
+      "url": "https://github.com/openai/codex.git",
+      "licenseHint": "Apache-2.0",
+      "role": "adapter",
+      "note": "Official Codex SDK and app-server protocol.",
+      "sha": "78245b47af2a7aafcabe025828ceecca69db4df1",
+      "branch": "main",
+      "licenseFiles": [
+        "LICENSE",
+        "NOTICE",
+        "codex-rs/skills/src/assets/samples/imagegen/LICENSE.txt",
+        "codex-rs/skills/src/assets/samples/openai-docs/LICENSE.txt",
+        "codex-rs/skills/src/assets/samples/skill-creator/license.txt",
+        "codex-rs/skills/src/assets/samples/skill-installer/LICENSE.txt",
+        "codex-rs/vendor/bubblewrap/COPYING",
+        "codex-rs/vendor/bubblewrap/LICENSE",
+        "docs/license.md",
+        "third_party/voice/NOTICE.md",
+        "third_party/wezterm/LICENSE"
+      ]
+    },
+    {
+      "name": "claude-agent-sdk",
+      "url": "https://github.com/anthropics/claude-agent-sdk-typescript.git",
+      "licenseHint": "Anthropic Commercial Terms; not an OSI open-source license",
+      "role": "adapter",
+      "note": "Public SDK reference source; commercial terms govern use. Do not classify as MIT or Apache.",
+      "sha": "18661edde4498f76ff5599b17ee4ca81d98409b2",
+      "branch": "main",
+      "licenseFiles": ["LICENSE.md"]
+    },
+    {
+      "name": "jev-router",
+      "url": "https://github.com/BillionsBobby/JevRouter.git",
+      "licenseHint": "MIT",
+      "role": "reference",
+      "note": "Routing and decision receipts; benchmark is not full task completion.",
+      "sha": "affd9ba4e58c4da2dc11e7b3756a2d6001d3719f",
+      "branch": "main",
+      "licenseFiles": ["LICENSE"]
+    },
+    {
+      "name": "sandbox-runtime",
+      "url": "https://github.com/anthropics/sandbox-runtime.git",
+      "licenseHint": "Apache-2.0",
+      "role": "sandbox",
+      "note": "Filesystem/network isolation driver; Windows alpha.",
+      "sha": "6fa731368807419ee157f9a3fac955fefe1019c6",
+      "branch": "main",
+      "licenseFiles": ["LICENSE", "test/fixtures/aws-sigv4-suite/NOTICE"]
+    },
+    {
+      "name": "xstate",
+      "url": "https://github.com/statelyai/xstate.git",
+      "licenseHint": "MIT",
+      "role": "state",
+      "note": "State-machine library; not durable storage.",
+      "sha": "fbee62e7c1586315ed478c2fedf530d7e0ff5a3e",
+      "branch": "main",
+      "licenseFiles": [
+        "LICENSE",
+        "packages/core/LICENSE",
+        "packages/xstate-immer/LICENSE",
+        "packages/xstate-react/LICENSE",
+        "packages/xstate-store/LICENSE",
+        "packages/xstate-vue/LICENSE"
+      ]
+    },
+    {
+      "name": "xyflow",
+      "url": "https://github.com/xyflow/xyflow.git",
+      "licenseHint": "MIT",
+      "role": "ui",
+      "note": "React Flow task graph.",
+      "sha": "0a1f9575b25679f2880175de8d3eae21aedde921",
+      "branch": "main",
+      "licenseFiles": ["LICENSE"]
+    },
+    {
+      "name": "ccusage",
+      "url": "https://github.com/ccusage/ccusage.git",
+      "licenseHint": "MIT (apps/ccusage/LICENSE)",
+      "role": "usage",
+      "note": "Usage parsing; API-equivalent cost is not subscription quota.",
+      "sha": "8f7035c546b30a6a05b8d63b9dd300e109c6b7f4",
+      "branch": "main",
+      "licenseFiles": ["LICENSE", "apps/ccusage/LICENSE"]
+    },
+    {
+      "name": "promptfoo",
+      "url": "https://github.com/promptfoo/promptfoo.git",
+      "licenseHint": "MIT core; inspect enterprise portions",
+      "role": "evaluation",
+      "note": "Question-pack regression and evaluation.",
+      "sha": "32b79fd98a4cb86d633069412f528ad5c8142bbc",
+      "branch": "main",
+      "licenseFiles": [
+        "LICENSE",
+        "plugins/promptfoo/skills/promptfoo-provider-setup/scripts/vendor/LICENSE",
+        "src/redteam/providers/crescendo/LICENSE"
+      ]
+    },
+    {
+      "name": "codex-monitor",
+      "url": "https://github.com/Dimillian/CodexMonitor.git",
+      "licenseHint": "MIT",
+      "role": "reference",
+      "note": "Tauri React UI patterns; Rust backend; revalidate protocol.",
+      "sha": "dd61b9abd37de5ded86e82b9fe8a83fd49d46fa5",
+      "branch": "main",
+      "licenseFiles": ["LICENSE"]
+    },
+    {
+      "name": "vibe-kanban",
+      "url": "https://github.com/BloopAI/vibe-kanban.git",
+      "licenseHint": "Apache-2.0",
+      "role": "reference",
+      "note": "Agent/workspace adapters; original company sunset, community project.",
+      "sha": "d5cbb5380fa0b32e98ef9b8d987f63decce4be3a",
+      "branch": "main",
+      "licenseFiles": ["LICENSE"]
+    },
+    {
+      "name": "opencode",
+      "url": "https://github.com/anomalyco/opencode.git",
+      "licenseHint": "MIT",
+      "role": "reference",
+      "note": "Alternative full agent; SolidJS stack, not a second orchestration core.",
+      "sha": "ae93d4afb3e414a541f520e062be924573b126e1",
+      "branch": "dev",
+      "licenseFiles": [
+        "LICENSE",
+        "packages/docs/LICENSE",
+        "packages/http-recorder/LICENSE",
+        "packages/ui/LICENSE"
+      ]
+    },
+    {
+      "name": "openclaw",
+      "url": "https://github.com/openclaw/openclaw.git",
+      "licenseHint": "MIT + notices",
+      "role": "optional-integration",
+      "note": "External host/plugin integration.",
+      "sha": "26c8cd22713ff4318b4567245d5897d56dc20e77",
+      "branch": "main",
+      "licenseFiles": [
+        "LICENSE",
+        "apps/macos/Sources/OpenClaw/Resources/DeviceModels/LICENSE.apple-device-identifiers.txt",
+        "apps/macos/Sources/OpenClaw/Resources/DeviceModels/NOTICE.md",
+        "apps/macos/Sources/OpenClaw/Resources/ProviderIcons/NOTICE.md",
+        "apps/swabble/LICENSE",
+        "packages/ai/LICENSE",
+        "packages/gateway-client/LICENSE",
+        "packages/gateway-protocol/LICENSE",
+        "packages/mermaid-renderer/native/NOTICE.txt",
+        "skills/skill-creator/license.txt"
+      ]
+    },
+    {
+      "name": "agent-client-protocol",
+      "url": "https://github.com/agentclientprotocol/agent-client-protocol.git",
+      "licenseHint": "Apache-2.0",
+      "role": "protocol",
+      "note": "Optional editor-agent transport.",
+      "sha": "8587a6d198b695b4ec156a5c128d6f8ff6dab485",
+      "branch": "main",
+      "licenseFiles": ["LICENSE"]
+    },
+    {
+      "name": "tauri",
+      "url": "https://github.com/tauri-apps/tauri.git",
+      "licenseHint": "MIT OR Apache-2.0",
+      "role": "desktop",
+      "note": "Desktop runtime and platform integration.",
+      "sha": "d8d02ba60c041fb0ab4f5631e8ea21ce7231a95a",
+      "branch": "dev",
+      "licenseFiles": [
+        "LICENSE.spdx",
+        "crates/tauri-driver/LICENSE.spdx",
+        "crates/tests/restart/LICENSE.spdx"
+      ]
+    },
+    {
+      "name": "langfuse",
+      "url": "https://github.com/langfuse/langfuse.git",
+      "licenseHint": "MIT outside ee; mixed",
+      "role": "optional-observability",
+      "note": "Optional telemetry reference; enterprise directories excluded from assumed permission.",
+      "sha": "ef0add7b2598200bd44573178d9d1cc5f7cc770b",
+      "branch": "main",
+      "licenseFiles": [".agents/skills/skill-creator/license.txt", "LICENSE", "ee/LICENSE"]
+    },
+    {
+      "name": "typesafe-sdk-js",
+      "url": "https://github.com/typesafe-ai/typesafe-sdk-js.git",
+      "licenseHint": "MIT (verify checkout LICENSE)",
+      "role": "judge",
+      "note": "Official TypeSafe JavaScript SDK; preferred Jev adapter dependency.",
+      "sha": "66880ccded6cb642dc1809620c2b108c33730214",
+      "branch": "main",
+      "licenseFiles": ["LICENSE"]
+    },
+    {
+      "name": "typesafe-sdk-python",
+      "url": "https://github.com/typesafe-ai/typesafe-sdk-python.git",
+      "licenseHint": "MIT (verify checkout LICENSE)",
+      "role": "evaluation",
+      "note": "Official Python SDK for offline experiments.",
+      "sha": "2ce5c65f13646cab6e6f782328194c9d85f3300a",
+      "branch": "main",
+      "licenseFiles": ["LICENSE"]
+    },
+    {
+      "name": "typesafe-skills",
+      "url": "https://github.com/typesafe-ai/skills.git",
+      "licenseHint": "MIT (verify checkout LICENSE)",
+      "role": "reference",
+      "note": "Official question-design and API skill references; downloaded only, not installed.",
+      "sha": "65a39f393687675ce170e6094757de20370365b9",
+      "branch": "main",
+      "licenseFiles": ["LICENSE", "skills/typesafe-ai/LICENSE"]
+    },
+    {
+      "name": "system-one-adapter-python",
+      "url": "https://github.com/typesafe-ai/system-one-adapter-python.git",
+      "licenseHint": "MIT (verify checkout LICENSE)",
+      "role": "reference",
+      "note": "Alternative judge backend reference for comparative evaluations.",
+      "sha": "adffc2eab300a4fa3c0e92252d4ffd6ceaa53700",
+      "branch": "main",
+      "licenseFiles": ["LICENSE"]
+    },
+    {
+      "name": "mcp-typescript-sdk",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk.git",
+      "licenseHint": "Apache-2.0 / retained MIT contributions; docs CC-BY-4.0",
+      "role": "protocol",
+      "note": "Official MCP server/client SDK.",
+      "sha": "60321700871029401a2e3bed8fdf4f02c9ec3331",
+      "branch": "main",
+      "licenseFiles": ["LICENSE"]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+deps/**
+.jevis/**
+node_modules/**
+**/target/**
+**/dist/**
+docs/screenshots/**
+.env*
+

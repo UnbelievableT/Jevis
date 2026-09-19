@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "context-relevance",
+  "version": "1.0.0",
+  "model": "unconfigured",
+  "questions": [
+    {
+      "id": "relevant",
+      "kind": "noul",
+      "prompt": "Does this candidate contain evidence needed for the stated work unit?"
+    }
+  ],
+  "calibrationDataset": null,
+  "automaticApproval": false
+}

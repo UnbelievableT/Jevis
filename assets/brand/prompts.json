@@ -1,0 +1,30 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "createdAt": "2026-09-19",
+  "assets": [
+    {
+      "file": "logo-transparent.png",
+      "prompt": "Use case: logo-brand. Create a finished single app icon for Jevis, a thoughtful multi-model AI orchestration product. A confident minimal geometric letter J formed from three interlocking rounded architectural bands which become one continuous path, symbolizing different intelligences working together. Flat solid warm ivory symbol on a solid deep forest green #183F35 square background. Square composition, symbol centered, generous 22% margin. Understated Swiss modernist identity, precise clean geometry, very readable at 24 pixels, premium developer software. No text, no wordmark, no mockup, no border, no extra small details, no gradients, no glow, no 3D. Produce a crisp 1024x1024 PNG artwork.",
+      "source": "exec-7371e81b-27d9-4951-b8aa-42e896cb404d.png",
+      "status": "exploration"
+    },
+    {
+      "file": "logo.png",
+      "prompt": "Use case: logo-brand. Edit the supplied Jevis mark to make a production desktop app icon. Keep the same recognisable ivory three-band J symbol and proportions. Put it centered with 20 percent safe margin on an entirely opaque uniform dark forest green square background, hex #183F35. Remove any distressed edge artifacts; smooth crisp clean geometric edges. No transparency anywhere. Flat solid colors only, no texture, no lighting, no shadow, no gradient, no frame, no rounded outer corners. No words or extra icons. Square 1024x1024 finished PNG.",
+      "source": "exec-c5b8f614-764d-4c5a-acc8-013a7d4ba120.png",
+      "status": "selected"
+    },
+    {
+      "file": "hero.png",
+      "prompt": "Use case: stylized-concept. Asset type: Jevis.xyz homepage hero art. Create a premium editorial 3D still life visual metaphor for many AI models working as one: three elegant sculptural continuous J-shaped ribbon paths, interlocking at different heights into a single shared architectural structure, accompanied by two small rounded wooden blocks. Forest green enamel, warm ivory ceramic, brushed satin silver, one subtle burnt orange connection detail. Warm off-white matte studio background, sculptural object on right two thirds, soft natural light from upper left, gentle real shadows, tactile surface, restrained modern industrial design. Wide landscape composition 1536x1024. No text, no UI, no logos, no floating holograms, no neon, no gradient background, no watermark. Crisp finished product brand artwork, calm capable feeling.",
+      "source": "exec-62bc55bf-bbbf-481b-8b7a-90c143d45534.png",
+      "status": "selected"
+    },
+    {
+      "file": "empty-state.png",
+      "prompt": "Use case: illustration-story. Asset type: finished empty-state illustration for Jevis multi-model orchestration desktop software. A minimalist editorial illustration of three neatly arranged architectural pieces preparing to join: one forest green curved J-shaped track, one warm ivory bridging arch, one small burnt orange cube, sitting together on a small cream drawing sheet with a subtle dotted connecting route. Off-white #F5F3ED background matching a calm productivity app. Orthographic slightly isometric viewpoint, tactile paper and matte ceramic, large negative space, very gentle grounding shadows, sophisticated understated industrial illustration, warm friendly and precise. Square composition 1024x1024. No text, letters, logos, faces, screens, robots, sparkles, gradients, watermarks, or borders.",
+      "source": "exec-0dcf8856-cbb1-4025-aeb8-8fba0ede7d5b.png",
+      "status": "selected"
+    }
+  ]
+}

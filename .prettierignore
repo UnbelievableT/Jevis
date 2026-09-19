@@ -1,0 +1,12 @@
+deps/*/
+node_modules/
+**/dist/
+**/target/
+.jevis/
+pnpm-lock.yaml
+**/Cargo.lock
+**/gen/
+**/icons/
+apps/*/public/brand/
+docs/screenshots/
+docs/technical-spec-v3.md

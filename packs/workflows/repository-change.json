@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "repository-change",
+  "version": "1.0.0",
+  "mode": "design",
+  "steps": [
+    {
+      "id": "spec",
+      "role": "architect",
+      "dependsOn": []
+    },
+    {
+      "id": "implementation",
+      "role": "worker",
+      "dependsOn": ["spec"]
+    },
+    {
+      "id": "checks",
+      "role": "worker",
+      "dependsOn": ["spec"]
+    },
+    {
+      "id": "review",
+      "role": "reviewer",
+      "dependsOn": ["implementation", "checks"]
+    }
+  ],
+  "acceptance": ["spec coverage", "repository tests", "independent review"],
+  "note": "Reference template, not an executable real-model workflow."
+}
