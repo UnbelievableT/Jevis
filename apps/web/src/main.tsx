@@ -57,7 +57,14 @@ function Header({ docs = false }: { docs?: boolean }) {
     <header className="site-header">
       <div className="header-inner">
         <Logo />
-        <nav className={open ? 'site-nav expanded' : 'site-nav'} aria-label="主导航">
+        <nav
+          id="site-navigation"
+          className={open ? 'site-nav expanded' : 'site-nav'}
+          aria-label="主导航"
+          onKeyDown={(event) => {
+            if (event.key === 'Escape') setOpen(false);
+          }}
+        >
           <a href="/#workflow" onClick={() => setOpen(false)}>
             工作方式
           </a>
@@ -75,6 +82,7 @@ function Header({ docs = false }: { docs?: boolean }) {
           className="menu-toggle"
           aria-label={open ? '关闭导航' : '打开导航'}
           aria-expanded={open}
+          aria-controls="site-navigation"
           onClick={() => setOpen(!open)}
         >
           {open ? <X size={20} /> : <Menu size={20} />}
@@ -142,6 +150,24 @@ function Workflow() {
                 role="tab"
                 aria-selected={step === i}
                 aria-controls="workflow-panel"
+                tabIndex={step === i ? 0 : -1}
+                onKeyDown={(event) => {
+                  const next =
+                    event.key === 'ArrowRight'
+                      ? (i + 1) % steps.length
+                      : event.key === 'ArrowLeft'
+                        ? (i + steps.length - 1) % steps.length
+                        : event.key === 'Home'
+                          ? 0
+                          : event.key === 'End'
+                            ? steps.length - 1
+                            : null;
+                  if (next !== null) {
+                    event.preventDefault();
+                    setStep(next);
+                    document.getElementById('step-' + next)?.focus();
+                  }
+                }}
                 className={'step-tab' + (step === i ? ' selected' : '')}
                 onClick={() => setStep(i)}
               >
